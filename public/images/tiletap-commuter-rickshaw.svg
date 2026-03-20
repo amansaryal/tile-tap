@@ -1,0 +1,59 @@
+<svg width="1200" height="1400" viewBox="0 0 1200 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1400" fill="#091523"/>
+  <rect width="1200" height="1400" fill="url(#paint0_linear_7_3)"/>
+  <circle cx="962" cy="222" r="242" fill="#2BCB72" fill-opacity="0.14"/>
+  <circle cx="276" cy="1180" r="325" fill="#2C5CFF" fill-opacity="0.16"/>
+  <rect x="66" y="66" width="1068" height="1268" rx="42" fill="url(#paint1_linear_7_3)" stroke="rgba(255,255,255,0.16)"/>
+  <path d="M110 1116C110 1083.97 135.967 1058 168 1058H635C667.033 1058 693 1083.97 693 1116V1208H110V1116Z" fill="#13273F"/>
+  <rect x="104" y="1012" width="582" height="110" rx="28" fill="#F1F5F9"/>
+  <path d="M749 788C749 737.19 790.19 696 841 696H963C1013.81 696 1055 737.19 1055 788V923H749V788Z" fill="#163250"/>
+  <rect x="95" y="195" width="560" height="565" rx="40" fill="#10253E"/>
+  <rect x="748" y="451" width="292" height="566" rx="32" fill="#EAF1F9"/>
+  <rect x="776" y="497" width="236" height="117" rx="22" fill="#173A5F"/>
+  <rect x="776" y="651" width="236" height="91" rx="16" fill="#FFFFFF"/>
+  <rect x="776" y="769" width="236" height="91" rx="16" fill="#FFFFFF"/>
+  <rect x="776" y="887" width="236" height="91" rx="16" fill="#35B457"/>
+  <circle cx="375" cy="421" r="176" fill="#DFB48F"/>
+  <path d="M207 644C207 551.768 281.768 477 374 477H375C467.232 477 542 551.768 542 644V823H207V644Z" fill="#7592B7"/>
+  <path d="M297 377C297 321.219 342.219 276 398 276H410C465.781 276 511 321.219 511 377V432H297V377Z" fill="#293648"/>
+  <path d="M273 614L621 788L565 977L190 819L273 614Z" fill="#222C38"/>
+  <circle cx="842" cy="1012" r="45" fill="#13273F"/>
+  <circle cx="967" cy="1012" r="45" fill="#13273F"/>
+  <text x="116" y="121" fill="white" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="92" font-weight="800">
+    Smooth rides
+  </text>
+  <text x="116" y="220" fill="white" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="92" font-weight="800">
+    from metro to office
+  </text>
+  <text x="116" y="292" fill="#FFD655" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="42" font-weight="700">
+    On time. Stress-free. TileTap.
+  </text>
+  <text x="803" y="575" fill="white" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="38" font-weight="800">
+    Ride Confirmed
+  </text>
+  <text x="804" y="710" fill="#173A5F" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="29" font-weight="700">
+    Route B  |  Seat 4A
+  </text>
+  <text x="804" y="828" fill="#173A5F" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="29" font-weight="700">
+    Office Corridor
+  </text>
+  <text x="822" y="947" fill="white" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="40" font-weight="800">
+    TileTap
+  </text>
+  <text x="116" y="1084" fill="#163250" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="54" font-weight="800">
+    Reliability for the last mile
+  </text>
+  <text x="116" y="1154" fill="#52606E" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="32" font-weight="600">
+    Concept placeholder based on the attached commuter visual
+  </text>
+  <defs>
+    <linearGradient id="paint0_linear_7_3" x1="1159.5" y1="81.5" x2="218.5" y2="1328" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163250"/>
+      <stop offset="1" stop-color="#08111D"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_7_3" x1="209" y1="124" x2="930" y2="1271" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+</svg>

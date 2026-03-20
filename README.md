@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TileTap Pitch Site
 
-## Getting Started
+Single-page VC pitch website for TileTap, built with Next.js and structured around a typed content model in [`/Users/amansaryal/Codex Apps/tile-tap/src/content/pitch.ts`](/Users/amansaryal/Codex Apps/tile-tap/src/content/pitch.ts).
 
-First, run the development server:
+## Local development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Production checks
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run lint
+npm run build
+```
 
-## Learn More
+## Content and asset updates
 
-To learn more about Next.js, take a look at the following resources:
+- Update all pitch copy in [`/Users/amansaryal/Codex Apps/tile-tap/src/content/pitch.ts`](/Users/amansaryal/Codex Apps/tile-tap/src/content/pitch.ts).
+- Replace placeholder commuter art in [`/Users/amansaryal/Codex Apps/tile-tap/public/images/tiletap-commuter-rickshaw.svg`](/Users/amansaryal/Codex Apps/tile-tap/public/images/tiletap-commuter-rickshaw.svg) and [`/Users/amansaryal/Codex Apps/tile-tap/public/images/tiletap-ride-confirmed.svg`](/Users/amansaryal/Codex Apps/tile-tap/public/images/tiletap-ride-confirmed.svg) with the original attached images before launch.
+- Replace placeholder CTA targets in [`/Users/amansaryal/Codex Apps/tile-tap/src/content/pitch.ts`](/Users/amansaryal/Codex Apps/tile-tap/src/content/pitch.ts).
+- Set `NEXT_PUBLIC_SITE_URL` in Vercel once you have a production domain.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy to Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push this project to a Git repository.
+2. Import the repo into Vercel.
+3. Set `NEXT_PUBLIC_SITE_URL` to the production URL or custom domain.
+4. Redeploy after swapping the placeholder CTA links and image assets.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The app is static-first and does not require server-side secrets for the current build.
