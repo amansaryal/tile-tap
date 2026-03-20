@@ -19,6 +19,8 @@
   --line-light: rgba(19, 34, 53, 0.12);
   --shadow-dark: 0 30px 90px rgba(0, 0, 0, 0.28);
   --shadow-light: 0 24px 70px rgba(19, 34, 53, 0.08);
+  --font-body: "Inter", "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 }
 
 * {
@@ -36,7 +38,7 @@ body {
     radial-gradient(circle at top left, rgba(77, 168, 255, 0.18), transparent 30%),
     linear-gradient(180deg, #08131f 0%, #091523 28%, #efe7d8 28%, #f6f1e8 100%);
   color: var(--white);
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-family: var(--font-body), "Segoe UI", sans-serif;
 }
 
 body::before {
@@ -187,15 +189,15 @@ main {
 .section-heading h2,
 .hero-stage-card h2 {
   margin: 0;
-  letter-spacing: -0.05em;
-  line-height: 0.92;
-  text-wrap: balance;
-  font-family: "Avenir Next Condensed", "Arial Narrow", sans-serif;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+  text-wrap: pretty;
+  font-family: var(--font-display), "Segoe UI", sans-serif;
 }
 
 .hero-section h1 {
-  max-width: 8.8ch;
-  font-size: clamp(4.2rem, 9vw, 8.4rem);
+  max-width: 9.4ch;
+  font-size: clamp(3.8rem, 7vw, 6.9rem);
 }
 
 .hero-subhead {
@@ -481,6 +483,10 @@ main {
 }
 
 .hero-image {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: center top;
   border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   background: rgba(255, 255, 255, 0.04);
@@ -647,7 +653,7 @@ main {
 }
 
 .section-heading h2 {
-  font-size: clamp(2.6rem, 5vw, 4.8rem);
+  font-size: clamp(2.3rem, 4.8vw, 4.2rem);
 }
 
 .narrative-copy {
@@ -732,6 +738,7 @@ main {
   margin: 0 0 10px;
   font-size: 1.12rem;
   line-height: 1.2;
+  overflow-wrap: anywhere;
 }
 
 .advantage-section .feature-card {
@@ -786,9 +793,28 @@ main {
 .section-image {
   width: 100%;
   height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   border-radius: 26px;
   border: 1px solid rgba(19, 34, 53, 0.08);
   background: rgba(255, 255, 255, 0.7);
+}
+
+.photo-break {
+  position: relative;
+  margin-top: 26px;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid var(--line-light);
+  box-shadow: var(--shadow-light);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.photo-break-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
 }
 
 .business-layout {
@@ -854,6 +880,10 @@ main {
     grid-template-columns: 1fr;
   }
 
+  .hero-section h1 {
+    max-width: 10.5ch;
+  }
+
   .hero-signal-grid,
   .feature-grid,
   .feature-grid.compact,
@@ -885,6 +915,11 @@ main {
     padding-top: 14px;
   }
 
+  .hero-section h1 {
+    max-width: none;
+    font-size: clamp(3.1rem, 12vw, 4.8rem);
+  }
+
   .hero-signal-grid,
   .feature-grid,
   .feature-grid.compact,
@@ -906,6 +941,16 @@ main {
 
   .hero-stage-visual {
     padding: 14px;
+  }
+
+  .hero-stage-card,
+  .hero-quote {
+    padding: 18px;
+  }
+
+  .hero-stage-card h2,
+  .section-heading h2 {
+    text-wrap: balance;
   }
 
   .map-node {

@@ -17,11 +17,9 @@ export const pitchContent: PitchContent = {
     body:
       "TileTap is a scheduled transfer layer between metro stations and office clusters, built to give commuters a guaranteed, predictable ride for the final 1 to 3 km between station and workplace.",
     image: {
-      src: "/images/tiletap-commuter-rickshaw.svg",
+      src: "/images/tiletap-hero-portrait.png",
       alt: "A TileTap commuter stepping out of a branded shuttle outside an office complex.",
       priority: true,
-      caption:
-        "Concept art placeholder for the attached commuter visual. Replace with the original image asset before launch.",
     },
     ctas: [
       {
@@ -243,17 +241,17 @@ export const pitchContent: PitchContent = {
   },
   images: {
     primary: {
-      src: "/images/tiletap-commuter-rickshaw.svg",
+      src: "/images/tiletap-hero-portrait.png",
       alt: "A TileTap commuter stepping out of a branded shuttle outside an office complex.",
       priority: true,
-      caption:
-        "Concept art placeholder for the attached commuter visual. Replace with the original image asset before launch.",
     },
     secondary: {
-      src: "/images/tiletap-ride-confirmed.svg",
-      alt: "A commuter checking a confirmed TileTap ride in front of a station shuttle.",
-      caption:
-        "Concept art placeholder for the attached ride-confirmed visual. Replace with the original image asset before launch.",
+      src: "/images/tiletap-solution-wide.png",
+      alt: "A commuter checking the TileTap app in front of a station shuttle at a business district stop.",
+    },
+    tertiary: {
+      src: "/images/tiletap-corridor-wide.png",
+      alt: "A TileTap shuttle loading commuters for the metro-to-office corridor route.",
     },
   },
 };

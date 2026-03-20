@@ -69,5 +69,6 @@ export type PitchContent = {
   images: {
     primary: PitchImage;
     secondary: PitchImage;
+    tertiary: PitchImage;
   };
 };

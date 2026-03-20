@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { BusinessModelSection } from "@/components/BusinessModelSection";
 import { CTASection } from "@/components/CTASection";
 import { FeatureGrid } from "@/components/FeatureGrid";
@@ -49,6 +51,15 @@ export default function Home() {
             title={pitchContent.advantagesTitle}
             items={pitchContent.advantages}
           />
+          <section className="photo-break" aria-label="TileTap corridor visual">
+            <Image
+              src={pitchContent.images.tertiary.src}
+              alt={pitchContent.images.tertiary.alt}
+              width={1536}
+              height={1024}
+              className="photo-break-image"
+            />
+          </section>
           <NarrativeSection
             section={pitchContent.whyNow}
             variant="why-now"
