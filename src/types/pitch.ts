@@ -41,6 +41,7 @@ export type PitchContent = {
     body: string;
     image: PitchImage;
     ctas: PitchCTA[];
+    signals: PitchFeature[];
   };
   quote: {
     label: string;

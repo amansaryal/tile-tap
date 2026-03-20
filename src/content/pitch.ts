@@ -35,6 +35,20 @@ export const pitchContent: PitchContent = {
         variant: "secondary",
       },
     ],
+    signals: [
+      {
+        title: "1 to 3 km",
+        body: "The final connection between station and office is where trust breaks.",
+      },
+      {
+        title: "Weekday density",
+        body: "The same commuters move through the same corridors at the same times.",
+      },
+      {
+        title: "B2B2C wedge",
+        body: "Employers subsidize access, making route utilization and acquisition more predictable.",
+      },
+    ],
   },
   quote: {
     label: "Positioning",
