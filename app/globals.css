@@ -36,7 +36,7 @@ body {
   min-height: 100vh;
   background:
     radial-gradient(circle at top left, rgba(77, 168, 255, 0.18), transparent 30%),
-    linear-gradient(180deg, #08131f 0%, #091523 28%, #efe7d8 28%, #f6f1e8 100%);
+    linear-gradient(180deg, #08131f 0%, #091523 34%, #f3eee4 34%, #f6f1e8 100%);
   color: var(--white);
   font-family: var(--font-body), "Segoe UI", sans-serif;
 }
@@ -70,21 +70,12 @@ main {
 
 .hero-shell {
   position: relative;
-  padding: 26px 0 44px;
-}
-
-.hero-shell::after {
-  content: "";
-  position: absolute;
-  inset: auto 0 -120px;
-  height: 220px;
-  background: linear-gradient(180deg, rgba(8, 19, 31, 0), rgba(239, 231, 216, 0.88));
-  pointer-events: none;
+  padding: 26px 0 56px;
 }
 
 .content-shell {
   position: relative;
-  padding: 18px 0 72px;
+  padding: 6px 0 72px;
 }
 
 .page-shell {
@@ -94,6 +85,21 @@ main {
 
 .page-shell-light {
   color: var(--ink);
+}
+
+.page-shell-light::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 0 0 26px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(19, 34, 53, 0.18) 18%,
+    rgba(19, 34, 53, 0.18) 82%,
+    transparent
+  );
 }
 
 .site-header {
